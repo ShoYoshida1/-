@@ -38,5 +38,6 @@
 
 `long_bag_source`というディレクトリにあるbagファイルを、記録開始10秒後から60秒後までの範囲でカットし、`short_clip_10_60`という名前で保存する場合：
 
-```bash
-./trimmer.py long_bag_source short_clip_10_60 --start 10 --end 60
+```
+python3 bag_trimmer.py long_bag_source short_clip_10_60 --start 10 --end 60
+```
