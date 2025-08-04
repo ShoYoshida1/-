@@ -1,8 +1,5 @@
 # ROS 2 Bag Trimmer (Python Script)
 
-![ROS](https://img.shields.io/badge/ROS%202-Humble%20%7C%20Iron-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 このPythonスクリプトは、ROS 2のbagファイルを時間指定で簡単にカット（トリミング）するためのコマンドラインツールです。記録の開始時点からの**相対時間（秒）**で範囲を指定できるため、タイムスタンプを計算する必要がなく、直感的に操作できます。
 
 ## 概要 (Description)
